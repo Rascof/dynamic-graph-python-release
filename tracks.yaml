@@ -24,7 +24,7 @@ tracks:
     vcs_type: git
     vcs_uri: https://github.com/Rascof/dynamic-graph-python.git
     version: :{auto}
-  neotic:
+  noetic:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
       :{vcs_uri} --name :{name} --output-dir :{archive_dir_path}
@@ -45,7 +45,7 @@ tracks:
     release_inc: '1'
     release_repo_url: https://github.com/Rascof/dynamic-graph-python-release.git
     release_tag: v:{version}
-    ros_distro: neotic
+    ros_distro: noetic
     vcs_type: git
     vcs_uri: https://github.com/Rascof/dynamic-graph-python.git
     version: :{auto}
